@@ -13,4 +13,5 @@ request(url, function(err, response, body) {
     data.each(function(i,elem){
         arr[i] = $(this).find("a").children("div.txtArea").text();
     });
+    console.log(arr);
 });
